@@ -13,3 +13,16 @@ console.log(SimpleInterest);
 DisplaySimpleInterest = Math.round(SimpleInterest);
 
 console.log(DisplaySimpleInterest);
+
+// selling price
+
+var sellingPrice = 499;
+var listingPrice = 699;
+
+var DiscountPrice = ((listingPrice - sellingPrice) / listingPrice) * 100;
+
+console.log(DiscountPrice);
+
+var displayDiscountPrice = Math.round(DiscountPrice);
+
+console.log(displayDiscountPrice);
