@@ -25,4 +25,8 @@ console.log(DiscountPrice);
 
 var displayDiscountPrice = Math.round(DiscountPrice);
 
-console.log(displayDiscountPrice);
+console.log(displayDiscountPrice + "%");
+
+var result = listingPrice > sellingPrice;
+
+console.log(typeof result);

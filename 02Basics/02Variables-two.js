@@ -13,4 +13,8 @@ console.log(`
     and his email is: ${email}
     and uses the password: ${password}
 
+
 `);
+
+//console.log(`Kuch bhi ${uid}`);
+//console.log("Kuch bhi ${uid}");
