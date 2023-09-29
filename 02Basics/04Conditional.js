@@ -1,6 +1,6 @@
 var temperature;
 
-temperature = 29;
+temperature = 40;
 
 //var result = temperature < 20;
 
