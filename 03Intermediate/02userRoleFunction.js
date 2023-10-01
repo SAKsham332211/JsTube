@@ -24,7 +24,7 @@ function getUserRole(name, role) {
 
 getUserRole("saksham", "admin");
 
-var greetings = getUserRole("saksham", "admin");
+var greetings = getUserRole("saksham", "subadmin");
 
 console.log(greetings);
 
