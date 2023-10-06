@@ -1,5 +1,5 @@
 //var number = prompt("Enter the number: ");
-var number = 9;
+var number = 4;
 
 var Result = Math.sqrt(number);
 

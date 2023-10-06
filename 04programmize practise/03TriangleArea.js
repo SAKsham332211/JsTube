@@ -3,7 +3,7 @@
 
 var basevalue = 4;
 
-var heightvalue = 3;
+var heightvalue = 6;
 
 var Area = (basevalue * heightvalue) / 2;
 
