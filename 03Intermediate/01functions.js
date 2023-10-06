@@ -1,18 +1,18 @@
-function sayHello(name) {
-  console.log("Hello there, Hitesh");
+// function sayHello(name) {
+//   console.log("Hello there, Hitesh");
 
-  // console.log("Hello there, ", name);
+//   // console.log("Hello there, ", name);
 
-  console.log(`Hello there, ${name}, how are you?`);
-}
-
-sayHello("hitesh");
-sayHello("sammy");
-
-// function namastey() {
-//   return "Hello India";
+//   console.log(`Hello there, ${name}, how are you?`);
 // }
 
-// namastey();
-// var greetings = namastey();
-// console.log(greetings);
+// sayHello("hitesh");
+// sayHello("sammy");
+
+function namastey() {
+  return "Hello India";
+}
+
+namastey();
+var greetings = namastey();
+console.log(greetings);
