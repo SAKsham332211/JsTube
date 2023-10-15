@@ -14,6 +14,8 @@
 var user = ["SAKSHAM SHARMA", "SHARMA.SAKSHAM137@GMAIL.COM", 3, 34, true];
 console.log(user);
 
+user.push("NEW VAL");
+
 // user.pop();
 // user.pop();
 // user.pop();
@@ -23,7 +25,7 @@ console.log(user);
 // console.log(user);
 
 // user.shift();
-// console.log(user);
+console.log(user);
 
 console.log(user.indexOf("SAKSHAM SHARMA"));
 

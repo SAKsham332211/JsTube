@@ -16,3 +16,7 @@ function namastey() {
 namastey();
 var greetings = namastey();
 console.log(greetings);
+
+var name = "";
+
+console.log(name);
