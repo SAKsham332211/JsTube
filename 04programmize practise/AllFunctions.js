@@ -100,3 +100,22 @@ testVariable(count);
 setTimeout(greet);
 console.log("this message is shown first");
 */
+
+function overoading() {
+  let length = arguments.length;
+  if (arguments.length == 0) {
+    console.log("you have passed no argument");
+  } else if (arguments.length == 1) {
+    console.log("you have passed atleast two argument");
+  } else {
+    let result = 0;
+    for (let i = 0; i < length; i++) {
+      result = result + arguments[i];
+    }
+    console.log(result);
+  }
+}
+overoading();
+overoading(3);
+overoading(3, 9);
+overoading(4, 9);
