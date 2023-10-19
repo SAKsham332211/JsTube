@@ -303,3 +303,108 @@ const b = 3;
 var result = twoDimensionArray(a, b);
 console.log(result);
 */
+
+/*function compareElement(arr1, arr2) {
+  var result = JSON.stringify(arr1) == JSON.stringify(arr2);
+  if (result) {
+    console.log("the array have same element");
+  } else {
+    console.log("the array have different element");
+  }
+}
+
+arr1 = [1, 2, 3, 4, 5];
+arr2 = [1, 2, 3, 4, 5];
+compareElement(arr1, arr2);
+*/
+// ......................................................................... intersection//
+/*function intersection(arr1, arr2) {
+  const setA = new Set(arr1);
+  const setB = new Set(arr2);
+  let intersectionResult = [];
+
+  for (let i of setB) {
+    if (setA.has(i)) {
+      intersectionResult.push(i);
+    }
+  }
+
+  return intersectionResult;
+}
+
+arr1 = [1, 2, 3, 4, 5];
+arr2 = [1, 2, 3];
+var result = intersection(arr1, arr2);
+console.log(result);
+*/
+
+/*function checkVariable(variable) {
+  if (variable == null) {
+    console.log("the variable is undefined or null");
+  } else {
+    console.log("the variable is neither undefined or null");
+  }
+}
+
+let newVariable;
+
+checkVariable(5);
+checkVariable("hello");
+checkVariable(null);
+checkVariable(newVariable);
+*/
+// ..........................................................................union//
+/*function intersection(arr1, arr2) {
+  const setA = new Set(arr1);
+  const setB = new Set(arr2);
+  let intersectionResult = new Set(arr1);
+
+  for (let i of setB) {
+    intersectionResult.add(i);
+  }
+
+  return intersectionResult;
+}
+
+arr1 = [1, 2, 3, 4, 5];
+arr2 = [6, 7, 8];
+var result = intersection(arr1, arr2);
+console.log(result);
+*/
+// ..............................................................................difference//
+/*function intersection(arr1, arr2) {
+  const setA = new Set(arr1);
+  const setB = new Set(arr2);
+  let intersectionResult = new Set(arr1);
+
+  for (let i of setB) {
+    intersectionResult.delete(i);
+  }
+
+  return intersectionResult;
+}
+
+arr1 = [1, 2, 3, 4, 5];
+arr2 = [1, 2, 3];
+var result = intersection(arr1, arr2);
+console.log(result);
+*/
+// ...............................................................................subset//
+/*function intersection(arr1, arr2) {
+  const setA = new Set(arr1);
+  const setB = new Set(arr2);
+
+  for (let i of setB) {
+    if (setA.has(i)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+arr1 = [1, 2, 3, 4, 5];
+arr2 = [1, 2, 3];
+var result = intersection(arr1, arr2);
+console.log(result);
+*/
