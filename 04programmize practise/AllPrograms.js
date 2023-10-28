@@ -318,16 +318,3 @@ while (true) {
 }
 
 */
-
-// var string = "saksham sharma";
-// var stringsplit = string.split("s");
-// var result = stringsplit.join("S");
-// console.log(result);
-
-const string = "Learning JavaScript Program";
-
-const splitString = string.split("a");
-
-const result = splitString.join("A");
-
-console.log(result);

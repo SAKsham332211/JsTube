@@ -13,7 +13,7 @@
 };
 
 //
-console.table(person);
+
 */
 
 /*var person = {
@@ -409,7 +409,7 @@ var result = intersection(arr1, arr2);
 console.log(result);
 */
 
-function extractValue(arr, prop) {
+/*function extractValue(arr, prop) {
   let extractedValue = arr.map((item) => item[prop]);
 
   return extractedValue;
@@ -423,3 +423,4 @@ const objArray = [
 
 var result = extractValue(objArray, "a");
 console.log(result);
+*/
