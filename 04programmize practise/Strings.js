@@ -107,7 +107,7 @@ for (let i = 0; i < words.length; i++) {
   if (element === "red") {
     count++;
 
-    if (count === 1`) {
+    if (count === 2) {
       element = "green";
     }
   }
@@ -127,7 +127,7 @@ console.log(message);
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 function randomString(length) {
-  const result = "";
+  var result = "";
   charactersLength = characters.length;
   for (i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
