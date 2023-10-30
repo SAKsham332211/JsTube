@@ -1,0 +1,36 @@
+
+
+body {
+  background-color: rgb(66, 66, 66);;
+}
+
+div {
+display: flex;
+justify-content: center;
+text-align: center;
+width: 500px;
+    height: 50px;
+    margin:auto;
+   padding:2rem;
+
+}
+
+
+
+
+      
+.red {
+    background-color:red;
+}
+.cyan {
+    background-color:cyan;
+}
+.violet {
+    background-color: violet;
+}
+.orange {
+    background-color: orange;
+}
+.pink {
+    background-color: pink;
+}

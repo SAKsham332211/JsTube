@@ -9,7 +9,22 @@ const center = document.querySelector(".center");
 //console.log(window.getComputedStyle(red).backgroundColor);
 
 const getBGcolor = (selectedElement) => {
-  return window.getComputedStyle(red).backgroundColor;
+  return window.getComputedStyle(selectedElement).backgroundColor;
 };
 
-console.log(getBGcolor(pink));
+// const Color = getBGcolor(cyan);
+// cyan.addEventListener("mouseenter", () => {
+//   center.style.background = Color;
+// });
+
+const magicColorChanger = (element, Color) => {
+  return element.addEventListener("mouseenter", () => {
+    center.style.background = Color;
+  });
+};
+
+magicColorChanger(red, getBGcolor(red));
+magicColorChanger(cyan, getBGcolor(cyan));
+magicColorChanger(violet, getBGcolor(violet));
+magicColorChanger(orange, getBGcolor(orange));
+magicColorChanger(pink, getBGcolor(pink));
