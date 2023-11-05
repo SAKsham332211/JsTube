@@ -18,6 +18,8 @@ const courses = [
   },
 ];
 
+generateList();
+
 function generateList() {
   const ul = document.querySelector(".list-group");
   ul.innerHTML = "";

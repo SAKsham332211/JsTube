@@ -1,36 +1,44 @@
-
-
 body {
-  background-color: rgb(66, 66, 66);;
+  background-color: rgb(66, 66, 66);
 }
 
-div {
-display: flex;
-justify-content: center;
-text-align: center;
-width: 500px;
-    height: 50px;
-    margin:auto;
-   padding:2rem;
-
+.color-container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 50px;
+  margin: auto;
+  padding: 2rem;
 }
 
+.color-viewer-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
 
+.color-viewer {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
 
+.color {
+  width: 100px;
+}
 
-      
 .red {
-    background-color:red;
+  background-color: red;
 }
 .cyan {
-    background-color:cyan;
+  background-color: cyan;
 }
 .violet {
-    background-color: violet;
+  background-color: violet;
 }
 .orange {
-    background-color: orange;
+  background-color: orange;
 }
 .pink {
-    background-color: pink;
+  background-color: pink;
 }

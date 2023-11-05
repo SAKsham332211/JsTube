@@ -4,7 +4,7 @@ const violet = document.querySelector(".violet");
 const orange = document.querySelector(".orange");
 const pink = document.querySelector(".pink");
 
-const center = document.querySelector(".center");
+const center = document.querySelector(".color-viewer");
 
 //console.log(window.getComputedStyle(red).backgroundColor);
 
